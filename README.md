@@ -5,9 +5,10 @@
     <img src="./icon.png" alt="Logo" height="75">
     
   </a>
-</div>
 
 # Jonas Schmedtmann - Mapty
+
+</div>
 
 ## Table of contents
 
