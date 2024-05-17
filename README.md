@@ -54,8 +54,8 @@ My goal was to recreate Jonas' Mapty WebApp from scratch and make some updates t
 - Ability to sort Workouts by a certain field (e.g. distance)
 - Re-build Running and Cycling objects coming from Local Storage
 - More realistic error and confirmation messages
-- Ability to position the map to show all Workouts [very hard]
-- Ability to draw lines and shapes instead of just points [very hard]
+- Ability to position the map to show all Workouts
+- Ability to draw lines and shapes instead of just points
 - Geocode location from coordinates (“Run in Cairo, Egypt”)
 - Display Weather data for Workout time and place
 
