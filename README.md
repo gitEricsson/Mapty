@@ -1,3 +1,11 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://ericsson-mapty.netlify.app/">
+    <img src="./icon.png" alt="Logo" height="75">
+    
+  </a>
+
 # Jonas Schmedtmann - Mapty
 
 ## Table of contents
@@ -51,7 +59,7 @@ My goal was to recreate Jonas' Mapty WebApp from scratch and make some updates t
 
 ### Links
 
-- Solution URL: [Github Repo here](https://github.com/gitEricsson/Mapty)
+- Code URL: [Github Repo here](https://github.com/gitEricsson/Mapty)
 - Live Site URL: [Live site here](https://ericsson-mapty.netlify.app/)
 
 ## My process
