@@ -220,11 +220,9 @@ body {
   transition: all 0.5s, transform 1ms;
 }
 
-.form.hidden {
-  transform: translateY(-30rem);
-  height: 0;
+.form.hide {
   margin-bottom: 0;
-  opacity: 0;
+  display: none;
 }
 
 .form__row {

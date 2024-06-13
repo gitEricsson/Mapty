@@ -319,7 +319,8 @@ class App {
 
     this.#mapEvent = mapE;
 
-    form.classList.remove('hidden');
+    form.classList.remove('hide');
+    if (window.innerWidth > 750) overlay.classList.toggle('hidden');
     inputDistance.focus();
   }
 
@@ -331,8 +332,8 @@ class App {
       inputElevation.value =
         '';
 
-    form.style.display = 'none';
-    form.classList.add('hidden');
+    // form.style.display = 'none';
+    form.classList.add('hide');
   }
 
   _toggleElevationField() {
@@ -384,6 +385,9 @@ class App {
         !allPositive(distance, duration, cadence)
       ) {
         body.classList.remove('loading');
+        spinner.classList.toggle('hide');
+        form.classList.remove('hide');
+
         return swal('', 'Inputs have to be positive numbers!', 'error');
       }
 
@@ -411,6 +415,9 @@ class App {
         !allPositive(distance, duration)
       ) {
         body.classList.remove('loading');
+        spinner.classList.toggle('hide');
+        form.classList.remove('hide');
+
         return swal('', 'Inputs have to be positive numbers!', 'error');
       }
 
