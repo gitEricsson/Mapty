@@ -858,7 +858,7 @@ class App {
           //// Edit option
           if (e.target.classList.contains('edit')) {
             // edit first
-            if (!form.classList.contains('hidden')) return;
+            if (!form.classList.contains('hide')) return;
 
             leaflet = +items.querySelector('.workout__leaflet').innerText;
 

@@ -6,7 +6,7 @@
     
   </a>
 
-# Jonas Schmedtmann - Mapty
+# Mapty
 
 </div>
 
@@ -17,6 +17,7 @@
   - [The Challenge](#the-challenge)
   - [Features](#features)
   - [Updates](#updates)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -58,6 +59,14 @@ My goal was to recreate Jonas' Mapty WebApp from scratch and make some updates t
 - Ability to draw lines and shapes instead of just points
 - Geocode location from coordinates (“Run in Cairo, Egypt”)
 - Display Weather data for Workout time and place
+
+### Screenshots
+
+![screenshot1](./screenshots/Screenshot1.png)
+![screenshot2](./screenshots/Screenshot2.png)
+![screenshot3](./screenshots/Screenshot3.png)
+![screenshot4](./screenshots/Screenshot4.png)
+![screenshot5](./screenshots/Screenshot5.png)
 
 ### Links
 
